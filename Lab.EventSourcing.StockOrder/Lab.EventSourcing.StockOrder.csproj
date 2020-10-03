@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lab.EventSourcing.Core\Lab.EventSourcing.Core.csproj" />
+    <ProjectReference Include="..\Lab.EventSourcing.DomainEvents\Lab.EventSourcing.DomainEvents.csproj" />
+  </ItemGroup>
+
+</Project>
